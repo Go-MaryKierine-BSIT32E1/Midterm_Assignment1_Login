@@ -16,6 +16,11 @@ This ReadMe outlines the architecture and functionality of a web application bui
    - Validates user credentials.
    - Establishes user session upon successful authentication.
    - Limits login attempts and provides informative error messages.
+## USER REGISTRATION
+**When a new user tries to register, the register action in login. This action takes the username, email, and password as parameters.**
+## USER LOGIN 
+**When the user wants to login it would likely involve a similar action that takes a username, password, checks if a user with those credentials exists and if so logs the user in and redirects to a secure page.**
+**
 
 ### Conclusion:
 The Onion Architecture approach emphasizes security, separation of concerns, and scalability. However, this demonstration lacks features like password reset and persistent storage, which would be essential in a production environment.
